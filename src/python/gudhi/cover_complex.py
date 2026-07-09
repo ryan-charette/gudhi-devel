@@ -379,6 +379,7 @@ class MapperComplex(CoverComplexPy):
             gains,
             clustering,
         )
+        self.colors = colors
         self.input_type, self.min_points_per_node, self.N, self.beta, self.C = (
             input_type,
             min_points_per_node,
