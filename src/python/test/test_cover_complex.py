@@ -22,7 +22,7 @@ def test_empty_constructor():
 
 
 def test_mapper_complex_get_params():
-    assert MapperComplex().get_params()["colors"] is None
+    assert "colors" not in MapperComplex().get_params()
 
 
 def test_non_existing_file_read():
